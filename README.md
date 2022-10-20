@@ -2,7 +2,8 @@
 S3 적재된 파일을 각 파일 이름을 가진 폴더를 생성하고 파일을 복사하는 Trigger Function
 
 ## 사용 용도
-1. 다수의 .CSV 파일을 Athena에 개별 Table로 적재하기 위한 용도 -> Glue에서는 같은 경로의 .CSV 파일들을 하나의 Table로 인식
+1. 다수의 .CSV 파일을 Athena에 개별 Table로 적재하기 위한 용도
+1. Glue에서는 같은 경로의 .CSV 파일들을 하나의 Table로 인식하므로 .csv 파일들을 개별 폴더로 나누어 복제하고 Glue Crawler를 기동하여 Table 변환을 용이하게 함
 
 ## 설치 방법
 
